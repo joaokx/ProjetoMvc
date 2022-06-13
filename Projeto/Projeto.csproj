@@ -7,21 +7,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Venda1\**" />
     <Compile Remove="Views\Vendas1\**" />
     <Compile Remove="Views\Vendas2\**" />
     <Compile Remove="Views\Vendas\**" />
+    <Content Remove="Views\Venda1\**" />
     <Content Remove="Views\Vendas1\**" />
     <Content Remove="Views\Vendas2\**" />
     <Content Remove="Views\Vendas\**" />
+    <EmbeddedResource Remove="Views\Venda1\**" />
     <EmbeddedResource Remove="Views\Vendas1\**" />
     <EmbeddedResource Remove="Views\Vendas2\**" />
     <EmbeddedResource Remove="Views\Vendas\**" />
+    <None Remove="Views\Venda1\**" />
     <None Remove="Views\Vendas1\**" />
     <None Remove="Views\Vendas2\**" />
     <None Remove="Views\Vendas\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\Venda1Controller.cs" />
     <Compile Remove="Controllers\Vendas1Controller.cs" />
     <Compile Remove="Controllers\Vendas2Controller.cs" />
     <Compile Remove="Controllers\VendasController.cs" />
@@ -35,6 +40,7 @@
   <ItemGroup>
     <PackageReference Include="bootstrap" Version="5.1.3" />
     <PackageReference Include="Font.Awesome" Version="5.15.4" />
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.5">

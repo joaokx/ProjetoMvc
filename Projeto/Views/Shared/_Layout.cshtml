@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Projeto.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
@@ -41,20 +43,22 @@
                     
                          <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item" >
-                                <i class="fa-solid fa-table"></i>
 
-                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-bar-chart" aria-hidden="true"></i>Home</a>
                         <br />
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Produtoes" asp-action="Index">Produtos</a>
+                            <a class="nav-link" asp-area="" asp-controller="Produtoes" asp-action="Index"><i class="fa-solid fa-table"></i>Produtos</a>
                         </li>
                           <br />
                          <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                             
+                            <a class="nav-link " asp-area="" asp-controller="Clientes" asp-action="Index"><i class="fa fa-users" aria-hidden="true"></i>Clientes</a>
                         </li>
                           <br />
                          <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Venda1" asp-action="Index">Vendas</a>
+                             <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                            <a class="nav-link " asp-area="" asp-controller="Venda11" asp-action="Index">Vendas</a>
                         </li>
                       <br />
                         </ul>
